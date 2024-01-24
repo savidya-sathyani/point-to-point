@@ -14,9 +14,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+.app {
+  height: 100vh;
   font-weight: 400;
   overflow-x: hidden;
 
   @apply flex flex-col font-inter;
+}
+
+.content {
+  @apply flex-1 bg-gray-50 h-full;
 }

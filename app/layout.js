@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import '@/styles/global.scss';
 
-import Home from './page';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -16,7 +15,7 @@ const RootLayout = ({ children }) => {
     <html lang="en">
       <body suppressHydrationWarning={true} className="app">
         <Header />
-        <main>{children}</main>
+        <main className="content">{children}</main>
         <Footer />
         <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </body>

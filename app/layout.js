@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import '@/styles/global.scss';
+
 import Home from './page';
+import Header from '@/components/Header';
 
 export const metadata = {
   title: 'Point to Point',
@@ -12,6 +14,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true}>
+        <Header />
         <Home />
         <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </body>

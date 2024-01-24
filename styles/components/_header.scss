@@ -1,3 +1,8 @@
 .header-container {
   @apply flex flex-col justify-center;
+
+  .logo {
+    width: 20rem;
+    height: auto;
+  }
 }

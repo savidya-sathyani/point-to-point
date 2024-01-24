@@ -3,6 +3,7 @@ import '@/styles/global.scss';
 
 import Home from './page';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Point to Point',
@@ -13,9 +14,10 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}>
+      <body suppressHydrationWarning={true} className="app">
         <Header />
-        <Home />
+        <main>{children}</main>
+        <Footer />
         <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </body>
     </html>

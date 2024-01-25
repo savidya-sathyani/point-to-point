@@ -20,7 +20,3 @@ export const POINTS_TABLE = {
   ],
   pageSize: 10,
 };
-
-export const APIS = {
-  googleDirections: 'https://maps.googleapis.com/maps/api/directions/json?',
-};

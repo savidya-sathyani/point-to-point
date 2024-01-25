@@ -8,4 +8,8 @@
   .right-grid-container {
     @apply flex flex-row justify-end;
   }
+
+  .center-grid-container {
+    @apply flex flex-row justify-center;
+  }
 }

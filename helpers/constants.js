@@ -20,3 +20,7 @@ export const POINTS_TABLE = {
   ],
   pageSize: 10,
 };
+
+export const RESULT_TABLE = {
+  pageSize: 25,
+};

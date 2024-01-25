@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-sync-scripts */
 import '@/styles/global.scss';
 
 import Header from '@/components/Header';
@@ -17,7 +16,6 @@ const RootLayout = ({ children }) => {
         <Header />
         <main className="content">{children}</main>
         <Footer />
-        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </body>
     </html>
   );

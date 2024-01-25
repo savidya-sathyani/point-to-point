@@ -1,15 +1,11 @@
 .home {
-  @apply flex flex-col justify-center items-center mt-10 mb-10;
+  @apply flex flex-col justify-center items-center ml-2 mt-8 mb-8 mr-2;
 
-  &-box {
-    @apply w-1/2;
-  }
-
-  .form-label {
+  .center-field {
     @apply flex flex-row items-center;
   }
 
-  .location-container {
-    @apply flex flex-row items-center gap-8;
+  .right-grid-container {
+    @apply flex flex-row justify-end;
   }
 }

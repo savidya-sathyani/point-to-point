@@ -56,10 +56,8 @@ const Home = () => {
     });
   };
 
-  console.log(process.env.API_KEY);
-
   return (
-    <LoadScript googleMapsApiKey={process.env.API_KEY}>
+    <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_API_KEY}>
       <section className="home">
         <Grid container>
           <Grid item xs={6} className="form">
